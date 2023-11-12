@@ -1,0 +1,23 @@
+span{
+    font-size: 50px;
+}
+span input{
+    font-size: 50px;
+    height:110px;
+    width:110px;
+    border-radius: 5px;
+    outline: none;
+    border:2px solid black;
+    padding:10px;
+}
+span input:focus{
+    border:none;
+    outline:2px solid rgb(15, 238, 79)
+}
+
+.flex-pattern{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:20px;
+}

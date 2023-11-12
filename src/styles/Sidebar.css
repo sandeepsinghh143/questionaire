@@ -1,0 +1,38 @@
+.sidebar{
+    height:300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.check-btn{
+    background-color: rgb(65, 65, 239);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    color: white;
+    padding: 5px 40px;
+    height:50px;
+    width:200px;
+    border:none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.check-btn:disabled{
+    background-color: grey;
+}
+
+.flag, .chance{
+    font-size: 25px;
+}
+
+.flag{
+    color: gray;
+}
+
+.chance{
+    color: blue;
+    margin-top: 5px;
+    text-align: center;
+}
+.flagged{
+    color: red;
+}

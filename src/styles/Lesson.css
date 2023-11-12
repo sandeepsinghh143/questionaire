@@ -1,0 +1,13 @@
+.flex{
+    display:flex;
+    justify-content: space-between;
+    padding:10px 30px;
+    background-color: white;
+    margin: 50px 400px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+h2{
+    font-size: 40px;
+}
+

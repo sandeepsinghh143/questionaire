@@ -1,0 +1,18 @@
+.sort-options{
+    border: 1px solid rgb(238, 173, 8);
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-top:20px;
+    border-radius: 10px;
+}
+
+.sort-options span{
+    font-size: 25px;
+}
+.drag{
+    background-color: rgb(232, 239, 103);
+    border: none;
+}
